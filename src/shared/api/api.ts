@@ -1,7 +1,4 @@
 const API_URL = "https://api.green-api.com";
-// https://4100.api.green-api.com
-// idInstance = "410022753458"
-// apiTokenInstance = "d5036552d3b04639913ebce0555e446c957664d2339a433fa5"
 
 export interface GreenApiConfig {
   idInstance: string;
