@@ -1,4 +1,5 @@
 Запуск:
 
-npm install
+cd .\green-api\<br>
+npm install<br>
 npm run dev
