@@ -2,7 +2,7 @@ const API_URL = "https://api.green-api.com";
 // https://4100.api.green-api.com
 // idInstance = "410022753458"
 // apiTokenInstance = "d5036552d3b04639913ebce0555e446c957664d2339a433fa5"
-// recieve = "curl --location "https://api.green-api.com/waInstance410022752101/receiveNotification/80fba24749844d1481a5805219ed144b003a071d50184ed1bb?receiveTimeout=5"
+
 export interface GreenApiConfig {
   idInstance: string;
   apiTokenInstance: string;
@@ -116,7 +116,6 @@ export async function receiveNotification(
 
   const text = await response.text();
 
-  // Если за timeout ничего не пришло
   if (!text) {
     return null;
   }

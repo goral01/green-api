@@ -6,7 +6,6 @@ export function LoginPage() {
         idInstance: string,
         apiTokenInstance: string,
     ) => {
-        // Авторизация / сохранение credentials
         console.log(idInstance, apiTokenInstance);
     };
 
