@@ -1,5 +1,5 @@
 Запуск:
 
-cd .\green-api\<br>
+cd .\green-api\ <br>
 npm install<br>
 npm run dev
